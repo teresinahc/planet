@@ -16,3 +16,12 @@ twitter: filipesaraiva
 date_joined: !!timestamp '2015-10-09 00:00:01'
 tags: linux, kde, mageia, ciência
 id: 2
+---
+name: Jonhnny Weslley
+email: jonhnnyweslley@gmail.com
+blog: http://raciocinio-lateral.jonhnnyweslley.net/
+feed: http://feeds.feedburner.com/RaciocinioLateralBlogSpot
+twitter: jweslley
+date_joined: !!timestamp '2015-10-10 12:42:00'
+tags: linux, vim, go, ruby, rails, java, r
+id: 3
