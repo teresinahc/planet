@@ -45,7 +45,7 @@ Estamos usando:
 
 ## Instalação
 
-1. Primeiro você precisa clonar esse repositório: `git clone git@github.com:teresinahc/thc-blog.git`
+1. Primeiro você precisa clonar esse repositório: `git clone git@github.com:teresinahc/planet.git`
 * Então instale todos os requisitos rodando `pip install -r requirements.txt`
 * Execute `./manager.py create_db` para criar o banco de dados
 * Execute `./manager.py fetch_posts` para popular o banco de dados
