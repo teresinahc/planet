@@ -1,8 +1,8 @@
-# THC Blog
+# Planet THC
 
 [![Build Status](https://travis-ci.org/teresinahc/thc-blog.svg?branch=master)](https://travis-ci.org/teresinahc/thc-blog)
 
-## Mas como assim não é apenas um blog?
+## Mas como assim não é apenas um planet?
 
 Isso é uma aposta!!!
 
@@ -45,7 +45,7 @@ Estamos usando:
 
 ## Instalação
 
-1. Primeiro você precisa clonar esse repositório: `git clone git@github.com:teresinahc/thc-blog.git`
+1. Primeiro você precisa clonar esse repositório: `git clone git@github.com:teresinahc/planet.git`
 * Então instale todos os requisitos rodando `pip install -r requirements.txt`
 * Execute `./manager.py create_db` para criar o banco de dados
 * Execute `./manager.py fetch_posts` para popular o banco de dados
@@ -75,4 +75,4 @@ Para fazer o deploy no Heroku:
 
 **OBS:** O script `update_posts.sh` deve ser executado a todo tempo, para coletar os novos posts.
 
-OBS 2: Esse blog é um fork do [Beerblogging](https://github.com/avelino/beerblogging) e foi adaptado para as necessidades do Teresina Hacker Clube.
+OBS 2: Esse planet é um fork do [Beerblogging](https://github.com/avelino/beerblogging) e foi adaptado para as necessidades do Teresina Hacker Clube.
