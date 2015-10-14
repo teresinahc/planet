@@ -10,7 +10,7 @@ Você tem um mês para escrever pelo menos 1 blogpost. Se você não fizer, voc�
 
 ## Quem são os blogueiros?
 
-* Gustavo Carvalho: [Blog](http://blog.gtsalles.com.br) ~ [Feed](http://blog.gtsalles.com/index.xml)
+* Gustavo Carvalho: [Blog](http://blog.gtsalles.com.br) ~ [Feed](http://blog.gtsalles.com.br/tags/beerblogging/index.xml)
 * Filipe Saraiva: [Blog](http://blog.filipesaraiva.info/) ~ [Feed](http://blog.filipesaraiva.info/?tag=THC-blog&feed=rss2)
 * Jonhnny Weslley: [Blog](http://raciocinio-lateral.jonhnnyweslley.net) ~ [Feed](http://feeds.feedburner.com/RaciocinioLateralBlogSpot)
 

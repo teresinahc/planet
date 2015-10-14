@@ -2,7 +2,7 @@
 name: Gustavo Carvalho
 email: gt.salles@gmail.com
 blog: http://blog.gtsalles.com.br/
-feed: http://blog.gtsalles.com.br/index.xml
+feed: http://blog.gtsalles.com.br/tags/beerblogging/index.xml
 twitter: gt_salles
 date_joined: !!timestamp '2015-10-09 00:00:01'
 tags: python, django, go, docker, scrapy, linux, vim
