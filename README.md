@@ -1,6 +1,6 @@
 # Planet THC
 
-[![Build Status](https://travis-ci.org/teresinahc/thc-blog.svg?branch=master)](https://travis-ci.org/teresinahc/thc-blog)
+[![Build Status](https://travis-ci.org/teresinahc/planet.svg?branch=master)](https://travis-ci.org/teresinahc/planet)
 
 ## Mas como assim não é apenas um planet?
 
