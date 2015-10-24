@@ -11,7 +11,7 @@ id: 1
 name: Filipe Saraiva
 email: mail@filipesaraiva.info
 blog: http://blog.filipesaraiva.info/
-feed: http://blog.filipesaraiva.info/?tag=THC-blog&feed=rss2
+feed: http://blog.filipesaraiva.info/?tag=planet-thc&feed=rss2
 twitter: filipesaraiva
 date_joined: !!timestamp '2015-10-09 00:00:01'
 tags: linux, kde, mageia, ciência
