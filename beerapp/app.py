@@ -23,7 +23,7 @@ app.config.from_object('beerapp.settings')
 db = SQLAlchemy(app)
 gravatar = Gravatar(
     app,
-    size=75,
+    size=120,
     rating='x',
     default='retro',
     force_default=False,

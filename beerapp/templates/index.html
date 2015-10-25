@@ -2,48 +2,62 @@
 
 {% block main_content %}
 
-	<div id="container">
+<div id="main-content" class="container" >
 
-	{% for post in latest_posts %}
-		<article class="box">
+  <div class="col-md-8 col-md-offset-2" >
 
-			<aside class="data">
-        		<span class="mes">{{ post.date_updated|br_month }}</span>
-        		<span class="dia">{{ post.date_updated.strftime('%d') }}</span>
-     		</aside>
+    <div id="post-list" >
+      {% for post in latest_posts %}
+      <article class="post">
+        <div class="row" >
+          <aside class="col-sm-2">
+            <a href="{{ post.member.blog }}">
+              <img src="{{ post.author_email | gravatar }}" alt="Picture of {{ post.member.name }}" />
+            </a>
+          </aside>
 
-			<hgroup class="conteudo">
-         		<h2 class="titulo"><a href="{{ post.link }}">{{ post.title }}</a></h2>
-				{# TODO: translate 'por' #}
-            	<h3 class="autor"><a href="{{ post.member.blog }}">por {{ post.member.name }}</a></h3>
-        	</hgroup>
+          <hgroup class="col-sm-10">
+            <div class="date" >
+              <span class="month">{{ post.date_updated|br_month }}</span>
+              <span class="day">{{ post.date_updated.strftime('%d') }}</span>
+            </div>
+            <h2 class="title"><a href="{{ post.link }}">{{ post.title }}</a></h2>
+            {# TODO: translate 'por' #}
+            <strong class="author"><a href="{{ post.member.blog }}">por {{ post.member.name }}</a></strong>
+          </hgroup>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
 
-        	<section class="avatar">
-        		<a href="{{ post.member.blog }}"><img src="{{ post.author_email | gravatar }}"
-					alt="Picture of {{ post.member.name }}" /></a>
-        	</section>
+    <div class="pagination-wrapper" >
+      <nav>
+        <ul class="pagination">
+          {% for page in pagination.iter_pages() %}
+          {% if page %}
+          {% if page != pagination.page %}
+          <li><a href="?page={{ page }}">{{ page }}</a></li>
+          {% else %}
+          <li><span aria-hidden="true" >{{ page }}</span></li>
+          {% endif %}
+          {% else %}
+          <span id=pontos>…</span>
+          {% endif %}
+          {% endfor %}
 
-		</article>
-	{% endfor %}
+          {% if pagination.has_next %}
+          <li>
+            <a href="?page={{pagination.page + 1}}">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
 
-	<div id="paginacao">
-		{% for page in pagination.iter_pages() %}
-			{% if page %}
-				{% if page != pagination.page %}
-					<a href="?page={{ page }}">{{ page }}</a>
-				{% else %}
-					<strong>{{ page }}</strong>
-		      	{% endif %}
-		    {% else %}
-		    	<span id=pontos>…</span>
-		    {% endif %}
-		{% endfor %}
+  </div>
 
-		{% if pagination.has_next %}
-			<a href="?page={{pagination.page + 1}}"> - Pr&oacute;xima &raquo;</a>
-		{% endif %}
-	</div>
-
-	</div><!-- fim #container -->
+</div><!-- fim #container -->
 
 {% endblock %}
