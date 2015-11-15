@@ -1,0 +1,34 @@
+{
+  "gt_salles": {
+    "name": "Gustavo Carvalho",
+    "email": "gt.salles@gmail.com",
+    "blog": "http://blog.gtsalles.com.br/",
+    "feed": "http://blog.gtsalles.com.br/tags/beerblogging/index.xml",
+    "twitter": "gt_salles",
+    "date_joined": "2015-10-09"
+  },
+  "filipesaraiva": {
+    "name": "Filipe Saraiva",
+    "email": "mail@filipesaraiva.info",
+    "blog": "http://blog.filipesaraiva.info/",
+    "feed": "http://blog.filipesaraiva.info/?tag=planet-thc&feed=rss2",
+    "twitter": "filipesaraiva",
+    "date_joined": "2015-10-09"
+  },
+  "jweslley": {
+    "name": "Jonhnny Weslley",
+    "email": "jonhnnyweslley@gmail.com",
+    "blog": "http://raciocinio-lateral.jonhnnyweslley.net/",
+    "feed": "http://feeds.feedburner.com/RaciocinioLateralBlogSpot",
+    "twitter": "jweslley",
+    "date_joined": "2015-10-10"
+  },
+  "RuanAragao": {
+    "name": "Ruan Aragão",
+    "email": "ruanaragao2@gmail.com",
+    "blog": "http://blog.ruanaragao.com/",
+    "feed": "http://blog.ruanaragao.com/feed",
+    "twitter": "RuanAragao",
+    "date_joined": "2015-10-31"
+  }
+}

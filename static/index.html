@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="author" content="TeresinaHC Planet Team" />
+    <meta name="description" content="Posts from all TeresinaHC hackers" />
+    <meta name="keywords" content="blogging, teresina thc, thc, hacktivism, information" />
+    <link rel="icon" href="/assets/thc.png"/>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <link rel="icon" sizes="298x298" href="/assets/thc.png"/>
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content="TeresinaHC Planet"/>
+    <link rel="apple-touch-icon-precomposed" href="/assets/thc.png"/>
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/assets/thc.png"/>
+    <meta name="msapplication-TileColor" content="#333333"/>
+
+    <link href="http://planet.teresinahc.org" rel="canonical"/>
+
+    <title>TeresinaHC Planet</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/planet.css"/>
+  </head>
+  <body>
+    <header class="container">
+      <img src="/assets/thc.png" alt="Teresina Hacker Clube Planet" />
+      <h1>TeresinaHC Planet</h1>
+    </header>
+
+    <main class="container">
+
+      {{ range .Items }}
+      <article class="row">
+        <aside class="col-sm-2">
+          <a href="{{ .Author.Blog }}">
+            <img src="/assets/thc.png" alt="Picture of {{ .Author.Name }}">
+          </a>
+        </aside>
+        <hgroup class="col-sm-10">
+          <span class="date">{{ .PubDate }}</span>
+          <h2 class="title">
+            <a href="{{ .Link }}">{{ .Title }}</a>
+          </h2>
+          <span class="author">
+            <a href="{{ .Author.Blog }}">por {{ .Author.Name }}</a>
+          </span>
+        </hgroup>
+      </article>
+      {{ end }}
+
+    </main>
+
+    <footer>
+      <p>
+        TeresinaHC Planet -
+        <a href="/feed">Feed</a> -
+        <a href="https://github.com/teresinahc/planet">Github</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruan Aragão</title>
+    <description>Eu, Eu mesmo e Cameron Phillips</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Soup, Gnome and Python.</title>
+        <description>&lt;p&gt;Em? Pois é... Na verdade irei mostrar como fazer uma busca no google e exibir a descrição do primeiro resultado, isso de maneira simples utilizando &lt;strong&gt;urllib.request&lt;/strong&gt; e &lt;strong&gt;BeautifulSoup 4&lt;/strong&gt; com Python 3.&lt;/p&gt;
+
+&lt;h2&gt;Instalando BeautifulSoup 4&lt;/h2&gt;
+
+&lt;p&gt;Se você utiliza versões recentes do Debian ou Ubuntu Linux (Linux? Haha... Tá, parei.) pode simplesmente utilizar o commendo a seguir.
+&lt;code&gt;$ apt-get install python-bs4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ou você pode instalar com &lt;code&gt;easy_install&lt;/code&gt; ou &lt;code&gt;pip&lt;/code&gt; como no meu caso (Fedora 22).
+&lt;code&gt;$ pip install beautifulsoup4&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ainda pode &lt;a href=&quot;http://www.crummy.com/software/BeautifulSoup/download/4.x/&quot;&gt;baixar o código do BeautifulSoup 4&lt;/a&gt; e intalar o &amp;quot;setup.py&amp;quot;
+&lt;code&gt;$ python setup.py install&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Caso esteja com problemas na instalação, tente utilizando &lt;code&gt;$ python3 setup.py install&lt;/code&gt; para o Python 3.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;O código&lt;/h2&gt;
+
+&lt;p&gt;Primeiramente vamos importar o &lt;strong&gt;urllib.request&lt;/strong&gt; e o &lt;strong&gt;BeautifulSoup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib.request&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ok, agora para podermos fazer uma requisição na pagina do google precisamos adicionar um &lt;em&gt;User-Agent&lt;/em&gt; no nosso header.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;n&quot;&gt;opener&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;opener&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;addheaders&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;User-agent&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;Mozilla/5.0&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Vamos criar uma função responsavel por buscar e mostrar o resultado,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;opener&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;http://google.com/search?q=&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;lxml&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;st&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Para finalizar vamos pegar a frase e chamar a função de busca.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-py&quot; data-lang=&quot;py&quot;&gt;&lt;span class=&quot;n&quot;&gt;qry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Busca: &amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+        <link>/Soup-Gnome-and-Python/</link>
+        <guid isPermaLink="true">/Soup-Gnome-and-Python/</guid>
+      </item>
+    
+      <item>
+        <title>You&#39;re ready?</title>
+        <description>&lt;p&gt;Unlocked!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+        <link>/Fuck-Yeah/</link>
+        <guid isPermaLink="true">/Fuck-Yeah/</guid>
+      </item>
+    
+  </channel>
+</rss>

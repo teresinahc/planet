@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Filipe Saraiva&#039;s blog</title>
+	<atom:link href="http://blog.filipesaraiva.info/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://blog.filipesaraiva.info</link>
+	<description>Tecnologia, sociedade e política.</description>
+	<lastBuildDate>Sat, 19 Sep 2015 21:08:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.1</generator>
+	<item>
+		<title>Cantor: novo release em dezembro</title>
+		<link>http://blog.filipesaraiva.info/?p=1760</link>
+		<comments>http://blog.filipesaraiva.info/?p=1760#comments</comments>
+		<pubDate>Sat, 19 Sep 2015 20:06:11 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Periódico]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planeta-python-brasil]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1760</guid>
+		<description><![CDATA[Diálogo de seleção de backends no Cantor Cantor, o ambiente de programação científica inspirado no conceito de notebooks, está com o lançamento de uma nova versão programada para ocorrer junto com o KDE Applications 15.12 em dezembro. A funcionalidade mais importante nesse futuro release será a remoção da dependência do KDELibs4Support. O Cantor teve um port inicial para Qt5/KF5 lançado com... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1760">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/cantor-backendselection.png"><img class="wp-image-1751 size-full aligncenter" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/cantor-backendselection.png" alt="cantor-backendselection" width="653" height="570" /></a></p>
+<p style="text-align: center;"><em>Diálogo de seleção de backends no Cantor</em></p>
+<p style="text-align: justify;"><a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a>, o ambiente de programação científica inspirado no <a href="http://ipython.org/notebook.html" target="_blank">conceito de notebooks</a>, está com o lançamento de uma nova versão programada para ocorrer junto com o <a href="https://techbase.kde.org/Schedules/Applications/15.12_Release_Schedule" target="_blank">KDE Applications 15.12</a> em dezembro.</p>
+<p style="text-align: justify;">A funcionalidade mais importante nesse futuro release será a remoção da dependência do <a href="http://api.kde.org/frameworks-api/frameworks5-apidocs/kdelibs4support/html/" target="_blank">KDELibs4Support</a>. O Cantor teve um port inicial para Qt5/KF5 lançado com o <a href="https://www.kde.org/announcements/announce-applications-15.04.0.php" target="_blank">KDE Applications 15.04</a> em abril, mas aquela versão ainda usava o KDELibs4Support. Porém, agora essa é uma história que ficou no passado. Atualmente, o código fonte no branch master do <a href="https://projects.kde.org/projects/kde/kdeedu/cantor/repository" target="_blank">repositório do Cantor</a> já pode ser compilado sem KDELibs4Support. Espero que isso signifique um importante passo para o port do software para outros sistemas operacionais.</p>
+<p style="text-align: justify;">Nas semanas seguintes irei fazer uma triagem nos <a href="https://bugs.kde.org/component-report.cgi?product=cantor" target="_blank">relatórios de bugs</a> para verificar quais ainda estão presentes na atual versão. Vamos trabalhar duro e investir bastante energia para termos uma ótima nova versão!</p>
+<p style="text-align: justify;">Se você puder ajudar nesse desenvolvimento, sinta-se convidado para se juntar a mim nesta tarefa.</p>
+<p style="text-align: justify;">Caso aprecie meu trabalho com o Cantor, você pode demonstrar seu apoio fazendo u<a href="http://blog.filipesaraiva.info/?page_id=1349" target="_blank">ma doação</a> diretamente para mim. Ou considere fazer uma doação para a <a href="https://kde.org/" target="_blank">comunidade KDE</a> &#8211; desta forma você estará apoiando as melhorias desenvolvidas para o desktop, aplicações, bibliotecas, e para a infraestrutura fornecida pelo KDE para os mais variados projetos de software livre. Há uma <a href="https://www.kde.org/fundraisers/kdesprints2015/" target="_blank">campanha de crowdfunding</a> acontecendo até dia 30 de setembro e uma <a href="https://www.kde.org/community/donations/previousdonations.php" target="_blank">página de doações</a> sempre disponível.</p>
+<p style="text-align: justify;">E Feliz dia da Liberdade do Software!</p>
+<p style="text-align: justify;">(Happy Software Freedom Day!)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1760</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cantor: new upcoming release scheduled to December</title>
+		<link>http://blog.filipesaraiva.info/?p=1750</link>
+		<comments>http://blog.filipesaraiva.info/?p=1750#comments</comments>
+		<pubDate>Sat, 19 Sep 2015 19:36:04 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[planet-mageia-english]]></category>
+		<category><![CDATA[planet-python]]></category>
+		<category><![CDATA[planet-scipy]]></category>
+		<category><![CDATA[planetkde-english]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1750</guid>
+		<description><![CDATA[Backend selection dialog in Cantor Cantor, the scientific programming environment inspired in notebook view concept, is going to have a new release together with KDE Applications 15.12 in December. The most important thing in this future release is the removal of KDELibs4Support dependence. Cantor had an initial Qt5/KF5 port released with KDE Applications 15.04 in April,... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1750">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/cantor-backendselection.png"><img class="wp-image-1751 size-full aligncenter" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/cantor-backendselection.png" alt="cantor-backendselection" width="653" height="570" /></a></p>
+<p style="text-align: center;"><em>Backend selection dialog in Cantor</em></p>
+<p style="text-align: justify;"><a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a>, the scientific programming environment inspired in <a href="http://ipython.org/notebook.html" target="_blank">notebook view concept</a>, is going to have a new release together with <a href="https://techbase.kde.org/Schedules/Applications/15.12_Release_Schedule" target="_blank">KDE Applications 15.12</a> in December.</p>
+<p style="text-align: justify;">The most important thing in this future release is the removal of <a href="http://api.kde.org/frameworks-api/frameworks5-apidocs/kdelibs4support/html/" target="_blank">KDELibs4Support</a> dependence. Cantor had an initial Qt5/KF5 port released with <a href="https://www.kde.org/announcements/announce-applications-15.04.0.php" target="_blank">KDE Applications 15.04</a> in April, but that version was using KDELibs4Support yet. But that is a past story right now. Currently, the source code in master branch of <a href="https://projects.kde.org/projects/kde/kdeedu/cantor/repository" target="_blank">Cantor repository</a> can be compiled without the KDELibs4Support. I expect it can be a very important step to the port of the software to others operational systems.</p>
+<p style="text-align: justify;">In following weeks I am going to make a triage in <a href="https://bugs.kde.org/component-report.cgi?product=cantor" target="_blank">bugs reports</a> to verify which bugs are present in the current version. Let&#8217;s to do a hard work and invest a lot of energy to have a great release!</p>
+<p style="text-align: justify;">If you can help in the development, feel free to work together with me this work.</p>
+<p style="text-align: justify;">If you appreciate my work with Cantor, you can support me directly <a href="http://blog.filipesaraiva.info/?page_id=1349" target="_blank">making a donation</a>. Or you can to consider make a donation to <a href="https://kde.org/" target="_blank">KDE community</a> &#8211; this way you support the improvements in the desktop, applications, libraries, and in the infrastructure provided by KDE to several free software projects. There is a <a href="https://www.kde.org/fundraisers/kdesprints2015/" target="_blank">crowdfunding campaign</a> running until September 30, and the <a href="https://www.kde.org/community/donations/previousdonations.php" target="_blank">donation page</a> always available.</p>
+<p style="text-align: justify;">Happy Software Freedom Day!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1750</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Escrevendo Ciência com Software Livre</title>
+		<link>http://blog.filipesaraiva.info/?p=1557</link>
+		<comments>http://blog.filipesaraiva.info/?p=1557#comments</comments>
+		<pubDate>Sat, 05 Sep 2015 12:26:01 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Acadêmico]]></category>
+		<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Ciência]]></category>
+		<category><![CDATA[Eventos]]></category>
+		<category><![CDATA[FISL]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[Periódico]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+		<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1557</guid>
+		<description><![CDATA[No Fórum Internacional de Software Livre (FISL) desse ano apresentei uma palestra interessante para aqueles que trabalham com pesquisa em geral. Falei sobre alguns softwares livres utilizados naquilo que os pesquisadores, não importando qual área estejam trabalhando, mais fazem: ler e escrever. Konqi &#8211; o mascote do KDE &#8211; explica uma versão do método científico Seja das humanidades, seja... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1557">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">No Fórum Internacional de Software Livre (FISL) <a href="http://softwarelivre.org/fisl16" target="_blank">desse ano</a> apresentei uma palestra interessante para aqueles que trabalham com pesquisa em geral. Falei sobre alguns softwares livres utilizados naquilo que os pesquisadores, não importando qual área estejam trabalhando, mais fazem: ler e escrever.</p>
+<p style="text-align: justify;"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/scientific-method.png"><img class="aligncenter size-full wp-image-1558" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/09/scientific-method.png" alt="scientific-method" width="708" height="529" /></a></p>
+<p style="text-align: center;"><em>Konqi &#8211; o mascote do <a href="https://kde.org" target="_blank">KDE</a> &#8211; explica uma versão do método científico</em></p>
+<p style="text-align: justify;">Seja das humanidades, seja das exatas, das ciências da vida, ou das artes, pesquisadores irão dedicar boa parte do seu tempo de trabalho lendo textos &#8211; sejam artigos, livros, teses, e mais -, gerenciando esses textos e as informações coletadas a partir deles &#8211; como fichamentos &#8211; e escrevendo novos textos científicos, alimentando a cadeia formal de produção e divulgação de ciência.</p>
+<p style="text-align: justify;">Para isso a comunidade de desenvolvedores de software livre KDE disponibiliza três softwares muito interessantes, que cobrem as etapas comentadas acima:</p>
+<ul>
+<li style="text-align: justify;"><a href="https://okular.kde.org/" target="_blank">Okular</a> &#8211; um leitor universal de documentos (lê PDF, ePub, txt, ODF, OOXML, e mais) que permite fazer <a href="http://blog.filipesaraiva.info/?p=961" target="_blank">anotações seguindo o padrão PDF</a>;</li>
+<li style="text-align: justify;"><a href="http://kile.sourceforge.net/" target="_blank">Kile</a> &#8211; um editor <a href="https://pt.wikipedia.org/wiki/LaTeX" target="_blank">LaTeX</a> que conta com modelos, destaque de sintaxe, complementação de código, e muitos assistentes para inserção de figuras, criação de tabelas, e outros;</li>
+<li style="text-align: justify;"><a href="http://home.gna.org/kbibtex/" target="_blank">Kbibtex</a> &#8211; um gerenciador de referências que permite organizar a base de informações da sua pesquisa, relacionar entradas bibtex com arquivos de diversos tipos, fazer buscas em vários repositórios de referências sobre temas e autores, entre outras.</li>
+</ul>
+<p><a href="http://blog.filipesaraiva.info/wp-content/uploads/2012/11/anotacoes_okular.png"><img class="aligncenter wp-image-966" src="http://blog.filipesaraiva.info/wp-content/uploads/2012/11/anotacoes_okular.png" alt="anotacoes_okular" width="732" height="539" /></a></p>
+<p style="text-align: center;"><em>Exemplo de anotações com Okular</em></p>
+<p style="text-align: justify;">Na palestra introduzi algumas informações sobre a comunidade KDE, sobre ciência e software livre, e em seguida passei a falar de cada software, fazendo demonstrações das diversas funcionalidades presentes neles.</p>
+<p style="text-align: justify;">Se você não compareceu ao FISL e ficou interessado nessa apresentação, sem problemas! Os slides que utilizei estão logo abaixo. Mas a melhor parte é que é possível conferir as demonstrações das funcionalidades dos softwares, porque a palestra foi filmada! O vídeo com pouco mais de 30 minutos está mais abaixo.</p>
+<p style="text-align: justify;">Os slides:</p>
+<p style="text-align: justify;"><script class="speakerdeck-embed" src="//speakerdeck.com/assets/embed.js" async="" data-id="e1c45d19a6234216823f4e01dd948995" data-ratio="1.33333333333333"></script></p>
+<p style="text-align: justify;">O vídeo:</p>
+<p style="text-align: center;"><div style="width: 640px; " class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-1557-1" width="640" height="360" preload="metadata" controls="controls"><source type="video/ogg" src="http://hemingway.softwarelivre.org/fisl16/high/41c/sala_41c-high-201507081922.ogv?_=1" /><a href="http://hemingway.softwarelivre.org/fisl16/high/41c/sala_41c-high-201507081922.ogv">http://hemingway.softwarelivre.org/fisl16/high/41c/sala_41c-high-201507081922.ogv</a></video></div></p>
+<p style="text-align: justify;">Espero que gostem das informações aí apresentadas e fiquem a vontade para enviar qualquer dúvida, seja pelos comentários aqui do post, ou via meu e-mail em filipe at kde.org.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1557</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+<enclosure url="http://hemingway.softwarelivre.org/fisl16/high/41c/sala_41c-high-201507081922.ogv" length="45378042" type="video/ogg" />
+		</item>
+		<item>
+		<title>LaKademy 2015 &#8211; meu sprint do Cantor e outros trabalhos</title>
+		<link>http://blog.filipesaraiva.info/?p=1553</link>
+		<comments>http://blog.filipesaraiva.info/?p=1553#comments</comments>
+		<pubDate>Tue, 28 Jul 2015 15:04:48 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Comunidade]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[Eventos]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[LAkademy]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planeta-python-brasil]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1553</guid>
+		<description><![CDATA[De 3 à 6 de junho o KDE Brasil voltou à Salvador/Bahia para realizar o KDE Latin America Summit 2015 &#8211; ou, usando o nome mais bacana, LaKademy 2015. Aracele já escreveu sobre como o KDE Brasil teve início. É inevitável não pensar aquilo quando falamos sobre KDE e Bahia ao mesmo tempo. KDE tem... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1553">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">De 3 à 6 de junho o KDE Brasil voltou à Salvador/Bahia para realizar o KDE Latin America Summit 2015 &#8211; ou, usando o nome mais bacana, <a href="https://br.kde.org/lakademy-2015" target="_blank">LaKademy 2015</a>.</p>
+<p style="text-align: justify;">Aracele já <a href="https://cibermundi.wordpress.com/2015/06/11/lakademy-2015-returning-to-the-beginning/" target="_blank">escreveu</a> sobre como o KDE Brasil teve início. É inevitável não pensar aquilo quando falamos sobre KDE e Bahia ao mesmo tempo. KDE tem colaboradores no Brasil e na América Latina em geral desde muitos e muitos anos atrás (<a href="http://heliocastro.info/" target="_blank">KDHelio</a> está aqui para nos lembrar <img src="http://s.w.org/images/core/emoji/72x72/1f609.png" alt="&#x1f609;" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ) mas o moderno KDE Brasil, orientado à comunidade, com presença contínua nas principais conferências sobre software livre no Brasil, com diversos desenvolvedores, tradutores, e mais, nasceu na Bahia a partir do trabalho do grupo <a href="https://liveblue.wordpress.com/about/" target="_blank">Live Blue</a> &#8211; Sandro e Tomaz. Portanto, viajar à Bahia não é apenas uma jornada ao local de nascimento do Brasil moderno &#8211; é também uma viagem ao local de nascimento do moderno KDE Brasil.</p>
+<p style="text-align: justify;">Meu principal trabalho no LaKademy 2015 foi terminar o port do <a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a> para Qt5/KF5. Eu iniciei essa tarefa no <a href="http://blog.filipesaraiva.info/?p=1311" target="_blank">LaKademy anterior</a>, e agora foi o momento de terminá-la. Durante o evento me foquei principalmente na remoção do KDELibs4Support. Durante o sprint abri <a href="https://git.reviewboard.kde.org/users/filipesaraiva/" target="_blank">5 review requests</a>, um para cada biblioteca removida. Agora estou terminando o <a href="https://git.reviewboard.kde.org/r/124168/" target="_blank">mecanismo de carregamento de plugins</a> e o trabalho estará terminado.</p>
+<p style="text-align: justify;">Mas esta não foi minha única atividade realizada. Durante o evento tivemos alguns projetores para apresentar palestras e material relacionado com contribuição para software livre. Apresentei o processo de revisão de código para os participantes e como submeter requisições de revisão. Isso foi realmente interessante para os novatos.</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img class="" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713540005_b7914e96bf_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">&#8220;Huumm&#8230; vamos compilar esse patch e ver o que acontece.&#8221;</p></div>
+<p style="text-align: justify;">Colocar diferentes contribuidores e novatos juntos é um momento interessante para troca de dicas e tirar dúvidas sobre diversos aspectos relacionados com contribuição. É interessante ver as diferentes distribuições Linux utilizadas por cada desenvolvedor, como cada um configura seu ambiente de desenvolvimento, e mais. É também um momento legal para sentar lado a lado com outros desenvolvedores para aprender um pouco mais, ou com os novatos para ensinar algo.</p>
+<p style="text-align: justify;">Enquanto trabalhei no port do Cantor, fui auxiliado por Daniela e Alana durante a <a href="https://git.reviewboard.kde.org/r/124008/" target="_blank">remoção do KDialog</a>. Outro momento legal foi ver a contribuição do Ícaro, Rodrigo e Fernando, adicionando a funcionalidade para automaticamente <a href="https://git.reviewboard.kde.org/r/124022/" target="_blank">aumentar o tamanho das bolas no Kollision</a> &#8211; precisamos entregar isso aos usuários!</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18716447921_e7fd3217ed_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">&#8220;O que você acha dessa linha?&#8221;</p></div>
+<p style="text-align: justify;">E claro, tivemos um encontro de promo para discutir as atividades do KDE no Brasil para esse ano. Quem quiser ver nossas ações e propostas, basta dar uma olhada no <a href="https://todo.kde.org/?controller=board&amp;action=readonly&amp;token=c324ef4370ae295d8a3fcf3333c4af1279522ca93c5096a3c5b39df78d04" target="_blank">quadro do KDE Brasil</a> no kanboard.</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713751305_bb895e689b_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">Promo Promo Promo Promo Promo Promo</p></div>
+<p style="text-align: justify;">Agora é o momento de espalhar a mensagem do KDE nos eventos brasileiros de software livre &#8211; e esse trabalho já começou semanas atrás durante o <a href="http://softwarelivre.org/fisl16" target="_blank">FISL</a>.</p>
+<p style="text-align: justify;">Finalizando, obrigado Sandro por ter organizado o LaKademy 2015 e por toda sua dedicação ao KDE Brasil. Gostaria de agradecer também a todos que contribuíram com <a href="https://br.kde.org/node/300" target="_blank">o crowdfunding do LaKademy 2015</a> e ao KDE e.V. &#8211; vocês fizeram o evento acontecer! Obrigado também ao Aleix Pol por revisar minhas contribuições de código! =)</p>
+<p style="text-align: justify;">E obrigado Salvador por ser essa cidade maravilhosa e sua culinária espetacular! =D</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img class="" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713562475_2326077595_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">Somos uma família feliz!</p></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1553</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>LaKademy 2015 &#8211; my own Cantor sprint and other tasks</title>
+		<link>http://blog.filipesaraiva.info/?p=1540</link>
+		<comments>http://blog.filipesaraiva.info/?p=1540#comments</comments>
+		<pubDate>Fri, 17 Jul 2015 17:25:47 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Comunidade]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[Eventos]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[LAkademy]]></category>
+		<category><![CDATA[planet-mageia-english]]></category>
+		<category><![CDATA[planetkde-english]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1540</guid>
+		<description><![CDATA[From June 3 to 6, KDE Brazil team come back to Salvador/Bahia to attend KDE Latin America Summit 2015 &#8211; or, using the coolest name, LaKademy 2015. Aracele wrote about how the KDE Brazil started in her post. It is inevitable not to think the same when we talk about KDE and Bahia together. KDE... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1540">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">From June 3 to 6, KDE Brazil team come back to Salvador/Bahia to attend KDE Latin America Summit 2015 &#8211; or, using the coolest name, <a href="https://br.kde.org/lakademy-2015" target="_blank">LaKademy 2015</a>.</p>
+<p style="text-align: justify;">Aracele <a href="https://cibermundi.wordpress.com/2015/06/11/lakademy-2015-returning-to-the-beginning/" target="_blank">wrote</a> about how the KDE Brazil started in her post. It is inevitable not to think the same when we talk about KDE and Bahia together. KDE has had collaborators in Brazil and Latin America since many years ago (<a href="http://heliocastro.info/" target="_blank">KDHelio</a> is here to remember us <img src="http://s.w.org/images/core/emoji/72x72/1f609.png" alt="&#x1f609;" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ) but the modern KDE Brazil team, community oriented, with a continuous presence in free software conferences in Brazil, has several developers, translators, and more, born in Bahia from the work performed by <a href="https://liveblue.wordpress.com/about/" target="_blank">Live Blue</a> team &#8211; Sandro and Tomaz. Therefore, a trip to Bahia is not only a journey to the birthplace of modern Brazil &#8211; it is a trip to the birthplace of modern KDE Brazil too.</p>
+<p style="text-align: justify;">My main work at LaKademy 2015 was to finish the port of <a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a> to Qt5/KF5. I started this work in <a href="http://blog.filipesaraiva.info/?p=1330" target="_blank">previous LaKademy</a>, and now it was the time to end it. During the event I was engaged to drop KDELibs4Support from that software. I opened <a href="https://git.reviewboard.kde.org/users/filipesaraiva/" target="_blank">5 review requests</a> during the sprint, one for each library dropped. Now I am just finishing the <a href="https://git.reviewboard.kde.org/r/124168/" target="_blank">plugin loading mechanism</a> and the work will be completed.</p>
+<p style="text-align: justify;">But it was not my only task. During the event we had some projectors to present talks or to show anything related with free software contributions. I presented the process of code review for the audience and how to submit a review request. It was really interesting for the newcomers.</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img class="" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713540005_b7914e96bf_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">&#8220;Huumm&#8230; I am going to compile this patch. Let&#8217;s see what happens.&#8221;</p></div>
+<p style="text-align: justify;">Putting different contributors and newcomers together is a nice moment to exchange tips and get help for several contribution aspects. It is interesting to see the different Linux distributions used by each developer, how each developer configures their environment, and more. It is also a nice time to sit side-by-side with contributors to learn more, and to teach something to newcomers.</p>
+<p style="text-align: justify;">As I worked on the Cantor port, I was assisted by Daniela and Alana to <a href="https://git.reviewboard.kde.org/r/124008/" target="_blank">drop KDialog</a> from the source code. Another interesting moment was to see the code contribution of Ícaro, Rodrigo, and Fernando, adding an automatically <a href="https://git.reviewboard.kde.org/r/124022/" target="_blank">increase balls size feature in Kollision</a> &#8211; we need to delivery it for our users!</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18716447921_e7fd3217ed_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">&#8220;What do you think about this line?&#8221;</p></div>
+<p style="text-align: justify;">And, of course, we had an extended promo meeting to discuss the KDE activities in Brazil for this year. If you have Portuguese skills, you can see our actions and proposals in the <a href="https://todo.kde.org/?controller=board&amp;action=readonly&amp;token=c324ef4370ae295d8a3fcf3333c4af1279522ca93c5096a3c5b39df78d04" target="_blank">KDE Brazil board</a> at kanboard.</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713751305_bb895e689b_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">Promo Promo Promo Promo Promo Promo</p></div>
+<p style="text-align: justify;">Now it is time to spread the KDE message in Brazilian free software events this year &#8211; and this work begins next week at <a href="http://softwarelivre.org/fisl16" target="_blank">FISL</a>.</p>
+<p style="text-align: justify;">So, thank you Sandro for all your work organizing the LaKademy 2015 and all your work related with KDE Brazil. I would also like to thank all <a href="https://br.kde.org/node/300" target="_blank">supporters of LaKademy 2015 crowdfunding</a> and KDE e.V. &#8211; you make it happen! Thank you Aleix Pol for reviewing my code contributions! =)</p>
+<p style="text-align: justify;">And thank you Salvador for the amazing city and food! =D</p>
+<div style="width: 650px" class="wp-caption aligncenter"><img class="" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/07/18713562475_2326077595_z.jpg" alt="" width="640" height="480" /><p class="wp-caption-text">We are a happy family!</p></div>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1540</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Software Livre no Pint of Science Brasil 2015</title>
+		<link>http://blog.filipesaraiva.info/?p=1537</link>
+		<comments>http://blog.filipesaraiva.info/?p=1537#comments</comments>
+		<pubDate>Mon, 18 May 2015 18:32:59 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Acadêmico]]></category>
+		<category><![CDATA[Cultura Livre]]></category>
+		<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Ciência]]></category>
+		<category><![CDATA[Eventos]]></category>
+		<category><![CDATA[Periódico]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planeta-python-brasil]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+		<category><![CDATA[São Carlos]]></category>
+		<category><![CDATA[USP]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1537</guid>
+		<description><![CDATA[Pint of Science é um festival internacional em rede que reúne cientistas em mesas de bares para conversar e compartilhar sobre ciência, a repercussão que sua área de pesquisa tem para a sociedade, e muito mais. É divulgação científica + boteco! O Brasil está participando pela primeira vez do evento, e a cidade de São... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1537">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p><iframe src="https://www.youtube.com/embed/hqqckkb1CLo" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: justify;"><a href="http://www.pintofscience.com.br/" target="_blank">Pint of Science</a> é um festival internacional em rede que reúne cientistas em mesas de bares para conversar e compartilhar sobre ciência, a repercussão que sua área de pesquisa tem para a sociedade, e muito mais. É divulgação científica + boteco!</p>
+<p style="text-align: justify;">O Brasil está participando pela primeira vez do evento, e a cidade de São Carlos terá 3 dias com mesas de bate-papo sobre <a href="http://www.pintofscience.com.br/#!programacao/c1y9y" target="_blank">temas variados</a> em dois restaurantes da cidade.</p>
+<p style="text-align: justify;">Para quem estiver na cidade hoje (18/05), a partir das 20h o Espaço Sete terá uma conversa sobre software livre e a liberdade de conhecimento na academia. Estarei lá junto com um grupo de amigos participantes de diversas comunidades de software livre para falarmos sobre o assunto, e claro, beber cerveja.</p>
+<p style="text-align: justify;">Vejo vocês lá!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1537</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cantor in KDE Applications 15.04</title>
+		<link>http://blog.filipesaraiva.info/?p=1533</link>
+		<comments>http://blog.filipesaraiva.info/?p=1533#comments</comments>
+		<pubDate>Sun, 26 Apr 2015 09:37:25 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Ciência]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[planet-mageia-english]]></category>
+		<category><![CDATA[planet-python]]></category>
+		<category><![CDATA[planet-scipy]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planetkde-english]]></category>
+		<category><![CDATA[python]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1533</guid>
+		<description><![CDATA[KDE Applications 15.04 release brings a new version of the scientific programming software Cantor, with a lot of news. I am specially happy with this release because I worked in several parts of these new features. =) Come with me™ and let&#8217;s see what is new in Cantor. Cantor ported to Qt5/KF5 I started the... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1533">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;"><a href="https://www.kde.org/announcements/announce-applications-15.04.0.php" target="_blank">KDE Applications 15.04</a> release brings a new version of the scientific programming software <a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a>, with a lot of news. I am specially happy with this release because I worked in several parts of these new features. =)</p>
+<p style="text-align: justify;">Come with me™ and let&#8217;s see what is new in Cantor.</p>
+<h2 style="text-align: justify;">Cantor ported to Qt5/KF5</h2>
+<div id="attachment_1517" style="width: 698px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-kf5.png"><img class="wp-image-1517" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-kf5.png" alt="cantor-kf5" width="688" height="469" /></a><p class="wp-caption-text">Cantor Qt5/KF5 + Breeze theme. In the image it is possible to see the terminal/worksheet, variable management panel, syntax highlighting, code completion, and the standard interface</p></div>
+<p style="text-align: justify;">I started the Cantor port to Qt5/KF5 during <a href="http://blog.filipesaraiva.info/?p=1330" target="_blank">previous LaKademy</a> and I continued the development along the year. Maybe I had pushed code from 5 different countries since the beginning of this work.</p>
+<p style="text-align: justify;">The change for this new technology was successfully completed, and for the moment we don&#8217;t notice any feature missed or new critical bug. All the backends and plugins were ported, and some new bugs created during this work were fixed.</p>
+<p style="text-align: justify;">We would like to ask for Cantor users to report any problem or bug in <a href="http://bugs.kde.org/" target="_blank">bugzilla</a>. Anyway, the software is really very stable.</p>
+<p style="text-align: justify;">When you run Cantor Qt5/KF5 version on the first time, the software will look for Cantor Qt4 configurations and, if it exists, the configurations will be automagically migrated to Cantor Qt5/KF5.</p>
+<h2 style="text-align: justify;">Backend for Python 3</h2>
+<p style="text-align: justify;">In Season of KDE 2014 I was the mentor of <a href="https://fedorapeople.org/~minh/" target="_blank">Minh Ngo</a> in the project to create a <a href="https://fedorapeople.org/~minh/kde/cantor/2015/01/18/sok-final-report.html" target="_blank">backend for Python 3</a>, increasing the number of backends in Cantor to 10!</p>
+<div id="attachment_1516" style="width: 655px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-backends.png"><img class="wp-image-1516 size-full" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-backends.png" alt="cantor-backends" width="645" height="575" /></a><p class="wp-caption-text">Backend selection screen: Python 3 and their 9 brothers</p></div>
+<p style="text-align: justify;">The backend developed by Minh uses D-Bus protocol to allow communication between Cantor and Python 3. This architecture is different of Python 2, but it is present in others backends, as in the backend for R.</p>
+<p style="text-align: justify;">The cool thing is Cantor can be interesting for pythonistas using Python 2 and/or Python 3 now. We would like to get feedback from you, guys!</p>
+<h2 style="text-align: justify;">Icon!</h2>
+<p style="text-align: justify;">Cantor first release was originally in 2009, with KDE SC 4.4. Since that date the software did not have an icon.</p>
+<p style="text-align: justify;">The Cantor Qt5/KF5 release marks a substantial change in the development of the application, then it is also a good time to release an icon to the software.</p>
+<div id="attachment_1518" style="width: 138px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/hi128-apps-cantor.png"><img class="wp-image-1518 size-full" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/hi128-apps-cantor.png" alt="Ícone do Cantor" width="128" height="128" /></a><p class="wp-caption-text">Cantor icon</p></div>
+<p style="text-align: justify;">The art is excellent! It presents the idea of Cantor: a blackboard to you write and develop your equations and formulas while scratches his head and think &#8220;and now, what I need to do to solve it?&#8221;. =)</p>
+<p style="text-align: justify;">Thank you Andreas Kainz and Uri Herrera, members of <a href="https://vdesign.kde.org/" target="_blank">VDG</a> team and authors of Cantor icon!</p>
+<h2 style="text-align: justify;">Other changes and bug fixes</h2>
+<p style="text-align: justify;">Most bugs added in the Qt5/KF5 port were fixed before the release.</p>
+<p style="text-align: justify;">There are some small changes to be cited: in KNewStuff categories world, &#8220;Python2&#8221; category was changed to &#8220;Python 2&#8221; and &#8220;Python 3&#8221; category was added; the automatic loading of <a href="http://quickgit.kde.org/?p=cantor.git&amp;a=commit&amp;h=08786ab0762a35ff6b387ffa66c8144b5246321b" target="_blank">pylab module</a> in Python backends was dropped; now it is possible to run <a href="https://bugs.kde.org/show_bug.cgi?id=342730" target="_blank">Python commands mixed with comments</a> in the worksheet; and more.</p>
+<p style="text-align: justify;">You can see a complete log of commits, bugfixes, and new features added in this release in <a href="https://www.kde.org/announcements/fulllog_applications-15.04.0.php#cantor" target="_blank">this page</a>.</p>
+<h2 style="text-align: justify;">Future works</h2>
+<p style="text-align: justify;">As future work maybe the high-priority for this moment is to drop KDELibs4Support from Cantor. Lucas <a href="https://git.reviewboard.kde.org/r/122406/" target="_blank">developed part of</a> this work and we would like to finish it for the next release.</p>
+<p style="text-align: justify;">I intend to test if D-Bus communication can be a good solution for Scilab backend. Another task is to redesign the graphical generation assistants of Python backends. A long-term work is to follow the creation of <a href="http://jupyter.org/" target="_blank">Jupyter</a> project, the future of IPython notebooks. If Cantor can to be compatible with Jupyter, it will be really nice for users and to encourage the collaboration between different communities interested in scientific programming and open science.</p>
+<p style="text-align: justify;">I will take advantage of the Cantor Qt5/KF5 release to write about how to use Cantor in two different ways: the Matlab way and the IPython notebooks way. Keep your eyes in the updates from this blog! =)</p>
+<p style="text-align: justify;">If you would like to help in Cantor development, please contact me or mail <a href="http://mail.kde.org/pipermail/kde-edu/" target="_blank">kde-edu maillist</a> and let&#8217;s talk about bug fixes, development of new features, and more.</p>
+<h2 style="text-align: justify;">Donations to KDE Brasil &#8211; LaKademy 2015!</h2>
+<p style="text-align: justify;">If you would like to support my work, please make a donation to KDE Brasil. We will host the KDE Latin-American Summit &#8211; LaKademy and we need some money to put some latin-american contributors to work together face-to-face. I will focus my LaKademy work in the previously mentioned future works.</p>
+<p style="text-align: justify;">You can read more about LaKademy in <a href="https://dot.kde.org/2015/04/21/lakademy-2015-salvador-bahia-brazil" target="_blank">this dot.KDE history</a>. <a href="https://br.kde.org/node/283" target="_blank">This page</a> in English explain how to donate. There is <a href="https://br.kde.org/node/284" target="_blank">other page</a> with the same content in Spanish.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1533</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Cantor no KDE Applications 15.04</title>
+		<link>http://blog.filipesaraiva.info/?p=1513</link>
+		<comments>http://blog.filipesaraiva.info/?p=1513#comments</comments>
+		<pubDate>Thu, 23 Apr 2015 13:21:31 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Cantor]]></category>
+		<category><![CDATA[Ciência]]></category>
+		<category><![CDATA[Desenvolvimento]]></category>
+		<category><![CDATA[KDE]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planeta-python-brasil]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+		<category><![CDATA[python]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1513</guid>
+		<description><![CDATA[Com o lançamento do KDE Applications 15.04, o segundo release no novo modelo de lançamentos de softwares desenvolvidos no KDE &#8211; agora o desktop, conjunto de aplicações, e frameworks tem cada um seu próprio ciclo de release -, o software para programação científica Cantor chegou com várias novidades. Esse lançamento me deixa particularmente feliz pois... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1513">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: justify;">Com o lançamento do <a href="https://www.kde.org/announcements/announce-applications-15.04.0.php" target="_blank">KDE Applications 15.04</a>, o segundo release no novo modelo de lançamentos de softwares desenvolvidos no <a href="http://kde.org" target="_blank">KDE</a> &#8211; agora o desktop, conjunto de aplicações, e frameworks tem cada um seu próprio ciclo de release -, o software para programação científica <a href="https://edu.kde.org/cantor/" target="_blank">Cantor</a> chegou com várias novidades. Esse lançamento me deixa particularmente feliz pois trabalhei bastante em algumas delas. =)</p>
+<p style="text-align: justify;">Vamos ver o que o Cantor tem de novo?</p>
+<h2 style="text-align: justify;">Cantor portado para Qt5/KF5</h2>
+<div id="attachment_1517" style="width: 698px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-kf5.png"><img class="wp-image-1517" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-kf5.png" alt="cantor-kf5" width="688" height="469" /></a><p class="wp-caption-text">Cantor Qt5/KF5 &#8211; visual usando Breeze, o novo tema padrão do KDE. Na imagem é possível ver o terminal, painel de gerenciamento de variáveis, destaque de sintaxe, complementação de código, e botões da tela padrão.</p></div>
+<p style="text-align: justify;">Trabalho que comecei no <a href="http://blog.filipesaraiva.info/?p=1311" target="_blank">LaKademy do ano passado</a> e fui desenvolvendo desde aquela data. Devo ter feito commits partindo de uns 5 países diferentes durante esse tempo.</p>
+<p style="text-align: justify;">A transição para essa nova tecnologia foi realizada com sucesso e até o momento não notamos nenhuma funcionalidade perdida ou bug crítico introduzido. Todos os backends e plugins foram portados, e alguns bugs que surgiram durante o port foram corrigidos.</p>
+<p style="text-align: justify;">Evidente que isso não garante que o software esteja livre de erros, portanto pedimos aos utilizadores que reportem quaisquer problemas no nosso <a href="http://bugs.kde.org/" target="_blank">gerenciador de bugs</a>. De qualquer forma, o software está bastante estável.</p>
+<p style="text-align: justify;">Usuários do Cantor da versão Qt4 terão suas configurações migradas para o novo formato utilizado na versão Qt5/KF5 automagicamente após a primeira inicialização.</p>
+<h2 style="text-align: justify;">Backend para Python 3</h2>
+<p style="text-align: justify;">Durante o Season of KDE 2014 orientei o colaborador <a href="https://fedorapeople.org/~minh/" target="_blank">Minh Ngo</a> no projeto de desenvolvimento do <a href="https://fedorapeople.org/~minh/kde/cantor/2015/01/18/sok-final-report.html" target="_blank">backend para Python 3</a>, fazendo com que o Cantor atingisse a marca de 10 backends diferentes!</p>
+<div id="attachment_1516" style="width: 655px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-backends.png"><img class="wp-image-1516 size-full" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/cantor-backends.png" alt="cantor-backends" width="645" height="575" /></a><p class="wp-caption-text">Tela de seleção de backend: Python 3 e seus outros nove irmãos</p></div>
+<p style="text-align: justify;">O backend de Minh utiliza comunicação via D-Bus para ligar o Cantor ao Python 3, uma arquitetura diferente da utilizada no Python 2 mas que já foi utilizada em outros backends, como no R.</p>
+<p style="text-align: justify;">O bacana é que agora o Cantor pode agradar tanto os pythonistas que usam Python 2 quanto os que já utilizam Python 3. Esperamos receber o feedback de vocês!</p>
+<h2 style="text-align: justify;">Ícone!</h2>
+<p style="text-align: justify;">Cantor foi lançado originalmente em 2009, no agora velhinho KDE SC 4.4. Desde aquela época ele nunca teve um ícone próprio.</p>
+<p style="text-align: justify;">O lançamento da versão Qt5/KF5, que marca uma mudança substancial no desenvolvimento da aplicação, é um bom momento para também lançar um ícone próprio para o software, dando uma cara para ele.</p>
+<div id="attachment_1518" style="width: 138px" class="wp-caption aligncenter"><a href="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/hi128-apps-cantor.png"><img class="wp-image-1518 size-full" src="http://blog.filipesaraiva.info/wp-content/uploads/2015/04/hi128-apps-cantor.png" alt="Ícone do Cantor" width="128" height="128" /></a><p class="wp-caption-text">Ícone do Cantor</p></div>
+<p style="text-align: justify;">E o resultado ficou excelente! Mostra bem a ideia do Cantor: um quadro negro para você ficar desenvolvendo seus cálculos enquanto coça a cabeça e pensa &#8220;e agora, daqui vai para onde?&#8221;. =)</p>
+<p style="text-align: justify;">Obrigado a Andreas Kainz e Uri Herrera, membros do <a href="https://vdesign.kde.org/" target="_blank">VDG</a> que desenvolveram o ícone!</p>
+<h2 style="text-align: justify;">Outras alterações e bugs corrigidos</h2>
+<p style="text-align: justify;">Boa parte dos bugs introduzidos durante o processo de porting pro Qt5/KF5 foram corrigidos antes do release.</p>
+<p style="text-align: justify;">Há também algumas alterações menores que merecem ser citadas, como a mudança da categoria KNewStuff de &#8220;Python2&#8221; para &#8220;Python 2&#8221; e a adição da categoria &#8220;Python 3&#8221;; remoção do carregamento automático do <a href="http://quickgit.kde.org/?p=cantor.git&amp;a=commit&amp;h=08786ab0762a35ff6b387ffa66c8144b5246321b" target="_blank">módulo pylab</a>; agora é possível executar comandos do <a href="https://bugs.kde.org/show_bug.cgi?id=342730" target="_blank">Python com comentários</a>; entre outras.</p>
+<p style="text-align: justify;">Para o log completo dos commits incluídos nesta versão, veja <a href="https://www.kde.org/announcements/fulllog_applications-15.04.0.php#cantor" target="_blank">esta página</a>.</p>
+<h2 style="text-align: justify;">Futuro</h2>
+<p style="text-align: justify;">Para o futuro talvez o plano de maior prioridade seja remover a KDELibs4Support do Cantor. O Lucas já <a href="https://git.reviewboard.kde.org/r/122406/" target="_blank">fez parte</a> desse trabalho, e esperamos finalizá-lo para o próximo release.</p>
+<p style="text-align: justify;">Eu pretendo dar uma olhada na comunicação via D-Bus e verificar se ela seria uma boa saída para o backend do Scilab. Outra tarefa também programada é a reorganização dos assistentes para geração de gráficos nos backends do Python. E um objetivo de longo prazo é acompanhar a criação do projeto <a href="http://jupyter.org/" target="_blank">Jupyter</a>, que será o futuro do IPython notebooks &#8211; tornar o Cantor compatível com o Jupyter pode ser uma boa forma de aumentar o número de potenciais usuários do software, além de fomentar a colaboração entre diferentes comunidades com interesse em programação científica.</p>
+<p style="text-align: justify;">Também irei aproveitar o lançamento dessa versão e escrever sobre duas formas de utilizar o Cantor &#8211; estilo terminal como o Matlab; e estilo notebooks, como o IPython. Aguardem!</p>
+<p style="text-align: justify;">Se você gostaria de auxiliar no desenvolvimento do Cantor, entre em contato para conversarmos sobre resoluções de bugs, desenvolvimento de novas funcionalidades, e mais. Ou contribua com a <a href="http://novo.vakinha.com.br/vaquinha/faca-acontecer-o-lakademy-2015" target="_blank">vakinha do KDE Brasil para realização do LaKademy 2015</a>. Minha participação no evento será bastante focada no desenvolvimento do software, principalmente nos objetivos que listei acima.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1513</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu: traidor do movimento ou de (ingênuas) expectativas?</title>
+		<link>http://blog.filipesaraiva.info/?p=1506</link>
+		<comments>http://blog.filipesaraiva.info/?p=1506#comments</comments>
+		<pubDate>Thu, 26 Mar 2015 00:37:58 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Pessoal]]></category>
+		<category><![CDATA[Software Livre]]></category>
+		<category><![CDATA[Comunidade]]></category>
+		<category><![CDATA[Distros]]></category>
+		<category><![CDATA[FLISOL]]></category>
+		<category><![CDATA[planet-mageia-portugues]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[planeta-python-brasil]]></category>
+		<category><![CDATA[planetkde-portugues]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1506</guid>
+		<description><![CDATA[Quem acompanha a comunidade software livre brasileira deve estar a par das recentes discussões sobre o pedido para não recomendação e não instalação do Ubuntu no FLISOL, Festival Latino-Americano de Instalação de Software Livre, evento em rede voltado para instalar distros GNU/Linux e outros softwares livres. As discussões começaram a partir de um abaixo-assinado lançado... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1506">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<div style="width: 654px" class="wp-caption aligncenter"><img src="http://blog.filipesaraiva.info/wp-content/uploads/2015/03/Ubuntu-4-10-cover.jpg" alt="" width="644" height="484" /><p class="wp-caption-text">Capa do Ubuntu 4.10 Warty Warthog &#8211; primeira versão da distro</p></div>
+<p style="text-align: justify;">Quem acompanha a comunidade software livre brasileira deve estar a par das recentes discussões sobre o pedido para não recomendação e não instalação do Ubuntu no <a href="http://flisol.info/" target="_blank">FLISOL</a>, Festival Latino-Americano de Instalação de Software Livre, evento em rede voltado para instalar distros GNU/Linux e outros softwares livres. As discussões começaram a partir de um <a href="http://www.anahuac.eu/flisol/" target="_blank">abaixo-assinado</a> lançado pelo Anahuac, continuaram na lista <a href="http://listas.softwarelivre.org/pipermail/psl-brasil/2015-March/thread.html" target="_blank">PSL-Brasil</a> e <a href="http://listas.flisol.info/pipermail/flisol/2015-March/thread.html" target="_blank">FLISOL</a>, e culminaram com a recomendação do coordenador brasileiro do evento, Thiago Paixão, para que os <a href="http://flisol.info/FLISOL2015/Brasil/flisolsemubuntu" target="_blank">grupos brasileiros boicotem o Ubuntu</a> &#8211; um eco um tanto tardio de um pedido que o Stallman fez em 2013.</p>
+<p style="text-align: justify;">Antes de partir para o texto em si cabe duas declarações para contextualizar os leitores sobre os posicionamentos do autor: 1) Não uso Ubuntu e nem tenho qualquer relação com a Canonical. Minha história com essa distro durou apenas 3 semanas no ano de 2006 &#8211; voltei pro Kurumin porque não gostei do Gnome (desculpem amigos Gnomos :)); 2) De fato o <a href="https://www.gnu.org/philosophy/ubuntu-spyware.html" target="_blank">spyware</a> que o Ubuntu instala por padrão nos computadores do usuário é algo sim muito nocivo, e apenas esse motivo justificaria o pedido de não recomendação do sistema em qualquer roda de ativistas de software livre.</p>
+<p style="text-align: justify;">Isso exposto me preocupa muito o andamento que as discussões tomaram, principalmente os argumentos que apontam o Ubuntu como uma distro que não é software livre. Esses argumentos no geral se embasam em duas premissas: os blobs binários e o fato da Canonical ter &#8220;virado as costas pra comunidade&#8221;, ou algo do gênero.</p>
+<p style="text-align: justify;">Sobre a questão dos blobs binários infelizmente isso é um problema que os desenvolvedores do kernel Linux e, por extensão, as principais distros, se defrontam. Muitos fabricantes de hardware só disponibilizam os drivers para Linux num formato binário, sem código-fonte. Os desenvolvedores do Linux tiveram que escolher: é melhor suportar o hardware com software privativo ou não suportar o hardware? Eles escolheram a primeira opção e isso acabou desembarcando nas distros em geral.</p>
+<p style="text-align: justify;">Portanto, blobs binários são entregues com todas as distros mais conhecidas. Não é exclusividade do Ubuntu: o Debian tem, o Fedora, OpenMandriva, Mageia, OpenSUSE, Chakra, Arch, e muitas outras. A FSF mantém uma <a href="https://www.gnu.org/distros/common-distros.html" target="_blank">página explicando isso</a>, e por esse motivo recomenda apenas a instalação de<a href="https://www.gnu.org/distros/free-distros.html" target="_blank"> distros que eliminaram esses blobs</a>, como o Trisquel.</p>
+<p style="text-align: justify;">Mas aí a questão que os desenvolvedores do kernel se perguntaram continua, e para mim ela é bastante complexa: é melhor instalar os blobs e ter o hardware funcionando ou ficar sem poder utilizar esse hardware? Claro que é melhor hardware que funciona com driver livre, mas as vezes o usuário não tem acesso a esse tipo de dispositivo. Para mim é melhor ter um sistema operacional 90% livre do que entregar um pen drive com alguma distro recomendada pela FSF para um usuário com hardware não suportado e dizer &#8220;da próxima vez traga um computador que não precise de blobs pra funcionar corretamente&#8221;, como chegaram a propor.</p>
+<p style="text-align: justify;">Mas voltando ao tema, por que apenas o Ubuntu será condenado por uma prática comum às demais distros?</p>
+<p style="text-align: justify;">O segundo ponto seria a Canonical destratar a sua comunidade. Nos últimos anos temos visto um movimento forte da empresa em dar foco ao Ubuntu e implementar uma certa visão ao sistema operacional que o tornaria compatível com smartphones, televisões, tablets e outras mais. Nesse sentido vimos a Canonical tirando suporte (e por consequência demitindo funcionários) de diversos remixes do Ubuntu mantidos oficialmente por ela, como o Kubuntu, Xubuntu e Edubuntu; a criação de um ambiente desktop próprio, o Unity, após o pessoal do Gnome não ter se mostrado muito receptivo às modificações que a companhia gostaria de ver; a criação de um servidor gráfico próprio, o Mir, que foi anunciado com muitas críticas &#8211; equivocadas &#8211; ao servidor que demais comunidades e empresas estão desenvolvendo, o Wayland; entre outras.</p>
+<p style="text-align: justify;">Todas essas medidas deixaram insatisfeitos parte da comunidade Ubuntu, em especial o pessoal mais velho que viu a distro crescer desde o começo; entretanto, estas iniciativas parecem não ter afetado uma certa base de usuários mais jovem. De qualquer forma, o ponto aqui é que todas as medidas relacionadas a software que a Canonical tomou são software livre. O código está disponível, tanto do <a href="https://launchpad.net/unity" target="_blank">Unity</a> quanto do <a href="https://launchpad.net/mir" target="_blank">Mir</a>, e é até irônico que as principais licenças que utilizam seja a versão 3 da GPL e LGPL.</p>
+<p style="text-align: justify;">É importante que saibamos separar nossas expectativas, gostos e frustrações daquilo que se espera de um movimento. Infelizmente (e coloco um infelizmente sem ironia), Stallman nunca colocou que o software livre seria um movimento antiempresarial. Para ele, software livre é sobre respeito ao usuário, que este tenha os meios de entender o que está acontecendo na sua máquina, e que não seja controlado por ela. Não é sobre julgamentos morais se uma empresa baseada em software livre agiu certo ou errado quando tomou tal direcionamento, a despeito ou não de sua comunidade.</p>
+<p style="text-align: justify;">O Ubuntu sempre foi uma distro com uma empresa por trás &#8211; a Canonical. Não há porque se frustrar quando a empresa *dona* do projeto resolve dar direcionamento diferente do que os usuários desejavam. Empresas fazem isso. Parece que o pessoal levou a sério demais o slogan <em>Linux for human beings</em>. É muito comum vermos empresas adotarem a prática dos slogans bonitinhos, mas só ingenuidade para acreditar que uma empresa é realmente aquilo que a propaganda dela apresenta. É como pensar que o Pão de Açúcar realmente se importa com você quando pergunta &#8220;o que faz você feliz?&#8221;; ou que o McDonald&#8217;s é aquela tia distante que recebe uma visita surpresa sua e fala, maternal, &#8220;que bom que você veio&#8221;. Ou que para a Coca-Cola não importa que você tome mais e mais a água-com-gás-açúcar-e-toxinas deles, mas sim que você &#8220;abra a felicidade&#8221;.</p>
+<p style="text-align: justify;">Qual a solução para isso? Contribua com distros realmente comunitárias. Estive na <a href="http://hemingway.softwarelivre.org/fisl15/high/41e/sala41e-high-201405081704.ogv" target="_blank">mesa <em>crossdistro</em> no FISL15</a> como membro da comunidade Mageia e comentei sobre isso. Não critico quem contribui com distros gerenciadas por empresas, cada um faz o que quer, mas eu não faço isso. Por esse motivo, quando o Mageia nasceu como uma distro comunitária a partir do fork do Mandriva, pulei junto com o grupo (e também porque havia um certo ar de &#8220;fábrica ocupada&#8221; no Mageia que dava um charme adicional ao projeto e foi fundamental para eu decidir seguir com eles =)). Em distros comunitárias há transparência e regras de governança estabelecidas que permitem que quem de fato dita as regras da distro é sua comunidade, e não o gerente de projetos de uma empresa qualquer. Há várias distros assim, como o Debian, exemplo mais famoso. Só seguir em frente e trabalhar para um projeto que você realmente se reconheça nele.</p>
+<p style="text-align: justify;">Pensando o software livre em termos de projeto, temos que entender que software livre se relaciona ao código, não ao gerenciamento.</p>
+<p style="text-align: justify;">Sobre o Ubuntu, espero que a Canonical realmente <a href="http://www.itworld.com/article/2856604/with-unity-8-ubuntu-will-bring-pure-linux-experience-to-mobile-devices.html" target="_blank">cumpra a promessa</a> de remover o spyware na próxima versão da distro, 15.04, que deve sair 2 dias antes do FLISOL (!!!). Para mim, quando isso acontecer, a distro voltará a ser como outra distro qualquer, com seu gerenciamento próprio, suas metodologias, comunidade e etc, mas acima de tudo escrevendo código utilizando licenças livres e lançando software que respeita seus usuários.</p>
+<p style="text-align: justify;">Sobre a comunidade de software livre, espero que possamos perceber que não há um problema específico do Ubuntu aqui, e que então sigamos em frente nos focando em alguma das outras intricadas questões que a sociedade nos coloca dia após dia.</p>
+<p style="text-align: justify;"><em>Filipe Saraiva é desenvolvedor na comunidade KDE e empacotador na comunidade Mageia</em></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1506</wfw:commentRss>
+		<slash:comments>25</slash:comments>
+<enclosure url="http://hemingway.softwarelivre.org/fisl15/high/41e/sala41e-high-201405081704.ogv" length="131487769" type="video/ogg" />
+		</item>
+		<item>
+		<title>Privacidade e interesse comum &#8211; o caso do (quase) bloqueio ao WhatsApp</title>
+		<link>http://blog.filipesaraiva.info/?p=1483</link>
+		<comments>http://blog.filipesaraiva.info/?p=1483#comments</comments>
+		<pubDate>Tue, 10 Mar 2015 13:29:08 +0000</pubDate>
+		<dc:creator><![CDATA[Filipe Saraiva]]></dc:creator>
+				<category><![CDATA[Cibercultura]]></category>
+		<category><![CDATA[Política]]></category>
+		<category><![CDATA[Contravenções]]></category>
+		<category><![CDATA[movimentos sociais]]></category>
+		<category><![CDATA[planeta-psl-pi]]></category>
+		<category><![CDATA[segurança]]></category>
+
+		<guid isPermaLink="false">http://blog.filipesaraiva.info/?p=1483</guid>
+		<description><![CDATA[given how much cypherpunks love math &#38; games, it&#8217;s remarkable how poor their game-theoretic analysis of the crypto situation is — David Golumbia (@dgolumbia) February 19, 2015 O recente caso do pedido de bloqueio ao WhatsApp no Brasil &#8211; que não chegou a cabo pois foi declarado desproporcional por instância jurídica superior &#8211; é uma... [<a class="read-more" href="http://blog.filipesaraiva.info/?p=1483">Read More</a>]]]></description>
+				<content:encoded><![CDATA[<blockquote class="twitter-tweet" lang="en"><p>given how much cypherpunks love math &amp; games, it&#8217;s remarkable how poor their game-theoretic analysis of the crypto situation is</p>
+<p>— David Golumbia (@dgolumbia) <a href="https://twitter.com/dgolumbia/status/568534731316457472">February 19, 2015</a></p></blockquote>
+<p style="text-align: justify;">O recente caso do pedido de <a href="http://oglobo.globo.com/sociedade/tecnologia/juiz-determina-suspensao-do-whatsapp-no-brasil-15436995" target="_blank">bloqueio ao WhatsApp no Brasil</a> &#8211; que não chegou a cabo pois foi <a href="http://oglobo.globo.com/sociedade/tecnologia/desembargador-anula-decisao-de-juiz-do-piaui-que-suspendia-whatsapp-no-pais-15448367" target="_blank">declarado desproporcional</a> por instância jurídica superior &#8211; é uma ótima oportunidade para fazermos o debate sobre o quão estamos dispostos a permitir, enquanto sociedade, que a criptografia e a privacidade do indivíduo estejam acima dos limites que estabelecemos para investigação de crimes e justiça, ou interesse comum da sociedade.</p>
+<p style="text-align: justify;">O bloqueio ao WhatsApp foi requisitado após a empresa se recusar a cooperar em uma investigação que corre em sigilo desde 2013. Há fortes indícios de que esse processo tem relação com casos de pedofilia. Apesar do bloqueio ter tentado forçar a empresa a auxiliar na investigação, imagino que realmente o WhatsApp não teria muito o que fazer se o pedido referia-se à disponibilização dos logs das conversas de algum usuário.</p>
+<p style="text-align: justify;">Isso porque o aplicativo funciona com uma arquitetura <em>peer-2-peer</em>: não deve haver outro armazenamento das mensagens que não o do próprio celular dos usuários. Não há uma nuvem com o histórico das conversas, como ocorre em aplicativos tais como o Telegram, Skype, Facebook Messenger, ou os servidores de e-mail convencionais. Inclusive esse é o motivo para o WhatsApp desktop ter como requisito que o celular do usuário esteja conectado à internet &#8211; ele acessa as conversas no celular para poder funcionar, pois elas não estão em outro lugar.</p>
+<p style="text-align: justify;">Nesse caso, como proceder a investigação? O próprio juiz empenhado no caso <a href="http://www1.folha.uol.com.br/tec/2015/02/1594894-juiz-que-proibiu-whatsapp-quer-forcar-app-a-colaborar-com-policia.shtml" target="_blank">comentou</a> o quão difícil é prosseguir nessa tarefa diante da popularização da tecnologia de aplicativos de mensagens:</p>
+<blockquote>
+<p style="text-align: justify;">Até pouco tempo atrás nós fazíamos interceptações telefônicas, mas hoje ninguém usa telefone [para falar], usa o WhatsApp.</p>
+</blockquote>
+<p style="text-align: justify;">O que mais me preocupa nesse tópico é encontrar manifestações de especialistas comentando que o bloqueio ao WhatsApp fere o direito de liberdade de expressão. Em que pese, de fato, ter sido desproporcional, qual seria a alternativa adequada na investigação de crime tão perverso? E se pensarmos em ferramentas ainda mais direcionadas para prover ampla e forte criptografia, como o aplicativo de mensagem TextSecure, as chaves PGP, e os codificadores de HD, como o utilizado pelo Daniel Dantas que <a href="http://g1.globo.com/politica/noticia/2010/06/nem-fbi-consegue-decifrar-arquivos-de-daniel-dantas-diz-jornal.html" target="_blank">nem o FBI descriptografou</a>, quanto estamos propensos a permitir o direito sem limites à privacidade?</p>
+<p style="text-align: justify;">Outra análise recorrente que também me chama atenção é a que diz que a lei avança mais devagar que a tecnologia e por isso está sempre defasada. Por acaso isso seria então motivo para não regulamentá-la, e deixar que usos nocivos à sociedade, como os investigados, proliferem e nos reste apenas lamentar pelo inevitável?</p>
+<p style="text-align: justify;">Acredito que todos nós já passamos pela experiência de sentar no sofá da sala para assistir o jornal e, durante reportagem sobre investigação do escândalo de corrupção da semana, sermos testemunhas de uma conversa privada que revela o esquema. Por que os meios digitais de comunicação deveriam ser uma exceção a esse tipo de monitoramento, fundamentado e autorizado, que busca identificar criminosos de verdade?</p>
+<p style="text-align: justify;">Minha proposta aqui é apenas chamar atenção para essa questão, e que consigamos fazer um debate sério e elaborado sobre o tema. Talvez seja interessante darmos uma olhada sobre como era o debate da privacidade quando as primeiras linhas telefônicas começaram a se estender sobre as cidades. É uma ideia.</p>
+<p style="text-align: justify;">Infelizmente, os governos e as grandes empresas de tecnologia tornaram esse tipo de debate bastante complicado quando passaram a monitorar todos os cidadãos indiscriminadamente, tendo os passos de nossas vidas, contatos e interações armazenados em grandes data centers, mastigados, processados e correlacionados por avançados algoritmos. De repente o cenário tornou-se um jogo extremo, de tudo ou nada. Temos que nos ocultar ao máximo pois o governo e as empresas estão monitorando tudo, sejamos inocentes ou não.</p>
+<p style="text-align: justify;">Mas, será que para fugir dessa vigilância massiva, estamos propensos até mesmo a impedir que investigações de crimes que afetam a sociedade consigam avançar?</p>
+<p style="text-align: center;"><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.filipesaraiva.info/?feed=rss2&#038;p=1483</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
