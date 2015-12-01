@@ -1,6 +1,8 @@
 package main
 
 import (
+	"crypto/md5"
+	"encoding/hex"
 	"encoding/json"
 	"encoding/xml"
 	"flag"
@@ -17,12 +19,13 @@ import (
 type Members map[string]*Member
 
 type Member struct {
-	Name    string  `json:"name"`
-	Email   string  `json:"email"`
-	Blog    string  `json:"blog"`
-	Feed    string  `json:"feed"`
-	Twitter string  `json:"twitter"`
-	Date    RssTime `json:"date_joined"`
+	Name        string  `json:"name"`
+	Email       string  `json:"email"`
+	Blog        string  `json:"blog"`
+	Feed        string  `json:"feed"`
+	Twitter     string  `json:"twitter"`
+	Date        RssTime `json:"date_joined"`
+	GravatarURL string  `json:"-"`
 }
 
 func (m *Member) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
@@ -42,7 +45,17 @@ func parseMembers(filename string) (Members, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	for _, member := range m {
+		member.GravatarURL = gravatarURL(member.Email)
+	}
 	return m, nil
+}
+
+func gravatarURL(email string) string {
+	h := md5.New()
+	h.Write([]byte(email))
+	return fmt.Sprintf("https://www.gravatar.com/avatar/%v.jpg", hex.EncodeToString(h.Sum(nil)))
 }
 
 type RssFeed struct {
