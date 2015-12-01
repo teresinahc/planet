@@ -131,21 +131,80 @@ func (ri SortedRssItems) Len() int           { return len(ri) }
 func (ri SortedRssItems) Swap(i, j int)      { ri[i], ri[j] = ri[j], ri[i] }
 func (ri SortedRssItems) Less(i, j int) bool { return ri[i].PubDate.Unix() > ri[j].PubDate.Unix() }
 
+type Planet struct {
+	members Members
+	feed    *RssFeed
+}
+
+func (p *Planet) Update(intervalo time.Duration) {
+	for {
+		p.updateFeed()
+		time.Sleep(intervalo)
+	}
+}
+
+func (p *Planet) updateFeed() {
+	log.Println("Atualizando planet feed")
+	c := make(chan []*RssItem)
+	for _, m := range p.members {
+		go fetchFeed(m, c)
+	}
+
+	var items []*RssItem
+	var f []*RssItem
+	for i := 0; i < len(p.members); i++ {
+		f = <-c
+		if f != nil {
+			items = append(items, f...)
+		}
+	}
+	sort.Sort(SortedRssItems(items))
+	p.feed.Channel.Items = items
+}
+
+func fetchFeed(m *Member, c chan []*RssItem) {
+	log.Printf("Baixando feed %s", m.Feed)
+	resp, err := http.Get(m.Feed)
+	if err != nil {
+		log.Println("ERRO: %s >> %v\n", feed, err)
+		c <- nil
+		return
+	}
+
+	d := xml.NewDecoder(resp.Body)
+
+	var r RssFeed
+	err = d.Decode(&r)
+	if err != nil {
+		log.Println("ERRO: %s >> %v\n", feed, err)
+		c <- nil
+		return
+	}
+
+	for _, i := range r.Channel.Items {
+		i.Author = m
+	}
+	c <- r.Channel.Items
+}
+
 var (
 	// flag options
 	membersFile = flag.String("m", "members.json", "Arquivo com informações dos membros")
 	staticDir   = flag.String("d", "./static", "Static directory")
 	port        = flag.Int("p", 9000, "HTTP port")
+	interval    = flag.Duration("i", time.Duration(24*time.Hour), "Intervalo para atualização automatica dos feeds")
 
 	// global vars
-	thcFeed = &RssFeed{
-		Version: "2.0",
-		Channel: &RssChannel{
-			Title:         "TeresinaHC Planet",
-			Link:          "http://planet.teresinahc.org/",
-			Description:   "TeresinaHC Planet",
-			Language:      "pt-BR",
-			LastBuildDate: RssTime{time.Now()},
+	planet = &Planet{
+		feed: &RssFeed{
+			Version: "2.0",
+			Channel: &RssChannel{
+				Title:         "TeresinaHC Planet",
+				Link:          "http://planet.teresinahc.org/",
+				Description:   "TeresinaHC Planet",
+				Language:      "pt-BR",
+				LastBuildDate: RssTime{time.Now()},
+			},
 		},
 	}
 
@@ -157,7 +216,7 @@ func feed(w http.ResponseWriter, req *http.Request) {
 
 	w.Header().Set("Content-Type", "text/xml; charset=UTF-8")
 	enc := xml.NewEncoder(w)
-	err := enc.Encode(thcFeed)
+	err := enc.Encode(planet.feed)
 	if err != nil {
 		log.Printf("ERROR: %v", err)
 		w.WriteHeader(http.StatusInternalServerError)
@@ -169,7 +228,7 @@ func homePage(w http.ResponseWriter, req *http.Request) {
 
 	w.Header().Set("Content-Type", "text/html; charset=UTF-8")
 	err := htmlPage.ExecuteTemplate(w, "index.html", map[string]interface{}{
-		"Items": thcFeed.Channel.Items,
+		"Items": planet.feed.Channel.Items,
 	})
 	if err != nil {
 		log.Printf("ERROR: %v", err)
@@ -184,23 +243,10 @@ func main() {
 		log.Fatalf("ERROR Invalid member file '%s': %v", *membersFile, err)
 	}
 
-	var items []*RssItem
-	for m, mm := range members {
-		f, _ := os.Open(fmt.Sprintf("feeds/%s.xml", m))
-		d := xml.NewDecoder(f)
+	http.DefaultClient.Timeout = 10 * time.Second
 
-		var rss2 RssFeed
-		err := d.Decode(&rss2)
-		if err != nil {
-			log.Fatalf("%s>> %v\n", m, err)
-		}
-		for _, i := range rss2.Channel.Items {
-			i.Author = mm
-		}
-		items = append(items, rss2.Channel.Items...)
-	}
-	sort.Sort(SortedRssItems(items))
-	thcFeed.Channel.Items = items
+	planet.members = members
+	go planet.Update(*interval)
 
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir(*staticDir))))
 	http.HandleFunc("/feed", feed)
