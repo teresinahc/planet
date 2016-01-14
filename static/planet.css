@@ -1,0 +1,61 @@
+body {
+  background-color: #333;
+}
+a {
+  color: #FFB701;
+}
+a:hover {
+  color: #FFCC56;
+}
+
+.container {
+  max-width: 750px;
+}
+
+header {
+  text-align: center;
+  margin: 30px 0px 50px;
+}
+header img {
+  height: auto;
+  width: 200px;
+}
+header h1 {
+  color: #FFF;
+  font-size: 2.7em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+article {
+  border-bottom: 3px solid #555;
+  padding: 20px;
+  display: block;
+}
+article img {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+}
+article h2.title {
+  margin: 0px;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.1;
+}
+article span.date {
+  color: #FFF;
+  font-size: 1.8em;
+}
+article span.author {
+  font-weight: 700;
+}
+article span.author a {
+  color: #777;
+}
+
+footer {
+  color: #777;
+  text-align: center;
+  margin: 20px 0;
+}

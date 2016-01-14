@@ -1,7 +1,0 @@
-*.pyc
-.settings
-*.db
-*.sqlite
-.DS_Store
-.ropeproject
-*.sublime-*
