@@ -5,4 +5,4 @@ ADD . /planet/
 WORKDIR /planet/
 
 RUN go build
-CMD ["/planet/planet"]
+CMD /planet/planet -p $PORT
